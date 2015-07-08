@@ -30,3 +30,20 @@ How do the diagrams help you visualize the branch structure?
 
 The diagrams make it easy to trace back through commits when there is a
 complicated branch structure.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+Merging branches combines all previous commits in the branches into one single
+master branch. In the diagram, these two branches existed separately with
+commits made at different times. We show this with a convergence of these
+separate threads to indicate that those histories still exist but can be traced
+back from a single commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing
+merges manually?
+
+While automatic merging is handy when there are no conflicts and can save
+effort when there are no conflicts in the code, though this may lead to excess
+or duplicative code. When a conflict is present, a manual check is the only
+sufficient way to merge. 
