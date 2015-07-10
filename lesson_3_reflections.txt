@@ -12,3 +12,19 @@ automatically stay up-to-date with your remote repository?
 If Git automatically makes updates to the remote repository, it could
 overwrite edits that were made locally but not yet pushed to the remote
 repository.
+
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+Forks are cloned copies of GitHub repositories that live on GitHub's servers.
+A fork can be maintained separately from it's origin, but can also be used to
+recommend changes to that original repository. Clones exist locally and can
+be GitHub repositories or other directories. Like forks, they are copied sets
+of files and can be used to push updates back to the original files or as
+simply a starting point. Clones can be used instead of forks if the workflow
+does not involve GitHub. Branches are used within a single repository and
+occur when a new commit is added as an off-shoot of the current linear path
+of the commit history. Branches help to separate work by features so that
+simultaneous changes can be made without impacting the master file. This is
+a good method to use when all of the users working on a file are known
+contributors, as may be the case within an organization.
