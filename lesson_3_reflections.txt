@@ -28,3 +28,22 @@ of the commit history. Branches help to separate work by features so that
 simultaneous changes can be made without impacting the master file. This is
 a good method to use when all of the users working on a file are known
 contributors, as may be the case within an organization.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+The local copy of the remote serves as a reference for the changes being made
+to that remote. This can serve as a point of comparison for the local files
+to prevent them from becoming out-of-sync.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+Without using Git or GitHub, collaboration would be much harder. I think
+frequent meetings would be necessary to understand what work has happened in
+areas outside of my focus, especially those that may impact my work. It would
+be easier to simply focus on what I am doing, but the methods for saving the
+changes I make in logical steps would be sorely missed. Though Git and GitHub
+are an added complication to the workflow, the benefits to be gained from these
+tools will make up for any challenges with that first revisit to an older
+commit when something becomes broken.
