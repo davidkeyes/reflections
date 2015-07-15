@@ -47,3 +47,13 @@ changes I make in logical steps would be sorely missed. Though Git and GitHub
 are an added complication to the workflow, the benefits to be gained from these
 tools will make up for any challenges with that first revisit to an older
 commit when something becomes broken.
+
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+Making changes in a separate branch is useful for work that dramatically alters
+the functionality of the code because the master branch stays in working order
+while these alterations are made. This is especially important for a shared
+project where users are dependent on a working master branch. If the project is
+an individual effort, then branching becomes less important. It still can be
+used in this case for the sake of organization.
